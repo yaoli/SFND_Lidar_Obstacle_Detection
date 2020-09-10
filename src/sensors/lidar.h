@@ -71,7 +71,7 @@ struct Ray
 
 struct Lidar
 {
-
+	// these re by default public in struct, but private in class
 	std::vector<Ray> rays;
 	pcl::PointCloud<pcl::PointXYZ>::Ptr cloud;
 	std::vector<Car> cars;
